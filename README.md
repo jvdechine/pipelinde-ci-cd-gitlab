@@ -7,4 +7,7 @@ In this project I'm showing how to create a Gitlab CI integration with your node
 - Pull repository
 - Run npm
 
-The only necessary thing is to send the .gitlab-ci file to your repository in Gitlab.
+It necessary:
+
+- Send the .gitlab-ci file to your repository in Gitlab.
+- Create two environment variables: PRIVATE_KEY and IP_SERVER.
